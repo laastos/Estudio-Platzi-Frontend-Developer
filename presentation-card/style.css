@@ -1,0 +1,33 @@
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: papayawhip;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card .card-background {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.card .card-avatar {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: calc(50% - 50px);
+  border-radius: 50%;
+}
+.card p {
+  margin-top: 50px;
+  text-align: center;
+}
+.card o:nth-child(3) {
+  color: turquoise;
+}
